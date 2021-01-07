@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83258b24d5.js" crossorigin="anonymous"></script>
+    <title>Bootstrap portfolio</title>
+    <style>
+      body{
+        font-family: 'Montserrat', sans-serif;
+      }
+      .img{
+        width: 900px;
+        height: 500px;
+      }
+      .pro{
+        width: 500px;
+        /* height: 300px; */
+      }
+      .pron{
+        width: 400px;
+        /* height: 300px; */
+      }
+      .fab{
+        font-size: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#social">Social</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Page Content
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#about">About me</a></li>
+                <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact form</a></li>
+                <li><a class="dropdown-item" href="#social">Social Handels</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- this is crousal -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/z8wanIipsaM/1100x900" class=" img d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>- Bill Gates, Co-founder of Microsoft</h5>
+        <p>“It’s fine to celebrate success but it is more important to heed the lessons of failure.”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/Em2nS9yY4dU/1000x500/" class="img d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>- Ratan Tata</h5>
+        <p>"If you want to walk fast, walk alone. But if you want to walk far, walk together"</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/yzbF63GQmhE/1000x500/" class="img d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>- Elon Musk</h5>
+        <p> "Failure is an option here. If things are not failing, you are not innovating enough."</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+<!-- main body -->
+<div class="alert alert-info text-center" role="alert">
+  This page is completely built in html and bootstrap
+</div>
+
+<!-- ///////////////////////////////////about -->
+<div class="p-5 text-center " id="about">
+  <div class="text-center">
+    <h3>About Me</h3>
+  </div>
+  <img src="https://source.unsplash.com/ZHvM3XIOHoE" class="shadow img-fluid pro card-img-top " alt="...">
+</div>
+  <div class="m-auto w-50 shadow mb-5" style="width: 18rem;" >
+    <div class="card-body">
+      <ul>
+        <p class="card-text"> <b>  Hi, My name is Paras Rawat</b>.</p>
+        <li>
+          <p>🔭 I’m currently working on Dynamic Website & Python Automation.</p>
+        </li>
+        <li>
+          <p>🌱 I’m currently learning Python, Laravel.</p>
+        </li>
+        <li>
+          <p>📫 How to reach me: by email or oz#4415 on Discord</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<!-- ///////////////////////////////////skills -->
+<div class="text-center p-5 mt-2 container w-50" id="skills">
+  <div >
+    <h2 class="mb-3">#Skills </h2>
+    <img src="https://source.unsplash.com/m_HRfLhgABo" class="img-fluid img-thumbnail pron card-img-top" alt="...">
+  </div>
+  <table class="table m-5">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Technical Skills</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Language</th>
+        <td>C++, Python, Javascript, HTML5, CSS3</td>
+      </tr>
+      <tr>
+        <th scope="row">FrameWoks & library</th>
+        <td>Bootstrap, Tailwind, Laravel</td>
+      </tr>
+      <tr>
+        <th scope="row">Tools</th>
+        <td>Github, VSCode</td>
+      </tr>
+      <tr>
+        <th scope="row">Database</th>
+        <td>MySQL</td>
+      </tr>
+
+    </tbody>
+  </table>
+  <div class="card shadow p-4">
+    <p class="card-text text-muted">These are skills on which I have made some projects take a look- <a target="_" href="https://github.com/007hyno">Github</a>.</p>
+  </div>
+  </div>
+  
+  
+  
+  <!-- ///////////////////////////////////Contact -->
+  <div class="text-center p-5 mt-5  mb-5 container w-50" id="contact">
+    <div class="text-center ">
+      <h3>Contact Form-</h3>
+    </div>
+    <div class="card shadow">
+      <form class="p-3">
+        <div class="form-group p-1 m-2 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">First Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputFirst" placeholder="First Name">
+          </div>
+      </div>
+        <div class="form-group p-1 m-2 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Last Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputLast" placeholder="Last Name">
+          </div>
+      </div>
+        <div class="form-group p-1 m-2 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+      </div>
+      <div class="form-group p-1 m-2 row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Number</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" id="inputNumber" placeholder="Number">
+        </div>
+        <div class="form-group form-check-inline p-1 m-2">
+          <input class="form-check-input"  type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">This form does not work and i know that still i want to check this box</label>
+        </div>
+      <div class="form-group p-1 m-1 row">
+          <button type="submit" class="btn btn-primary mb-2 w-100"> Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+
+<div class=" text-center m-auto w-50 shadow mb-5 p-4 text-dark" id="social" style="width: 18rem;" >
+  <h4>Reach me at <B>/007hyno</B></h4>
+  <a target="_blank" href="https://facebook.com/007hyno"><i class="fab fa-facebook"></i></a>
+  <a target="_blank" href="https://twitter.com/007hyno"><i class="fab fa-twitter"></i></a>
+  <a target="_blank" href="https://instagram.com/007hyno"><i class="fab fa-instagram"></i></a>
+  <a target="_blank" href="https://github.com/007hyno"><i class="fab fa-github"></i></a>
+  <a target="_blank" href="https://dev.to/007hyno"><i class="fab fa-dev"></i></a>
+</div>
+
+
+<div class="mt-5  bg-dark text-light text-center" role="alert">
+  by 007hyno © 2020 All Rights Reserved.
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  </body>
+</html>
